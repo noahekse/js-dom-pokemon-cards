@@ -21,7 +21,8 @@ img {
 }
 
 h1,
-h2 {
+h2,
+h4 {
   text-align: center;
 }
 
@@ -70,9 +71,25 @@ h2 {
 
 .card--stats{
   margin-top: 1rem;
+  margin-left: 1rem;
   margin-bottom: 1rem;
   justify-content: space-between;
   padding: 0 1rem;
   font-family: 'Courier New', Courier, monospace;
   list-style: none;
+}
+
+.card--generations {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  list-style: none;
+}
+
+.card--generations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
